@@ -1,0 +1,1198 @@
+{
+  "id": "82e2bb5e-7b2d-4124-8678-ac598c5c6ba8",
+  "version": "2.0",
+  "name": "AEROLINEA",
+  "url": "https://www.aerolineas.com.ar/",
+  "tests": [{
+    "id": "b5769c9f-7226-489c-a9b8-1ee0e44e8a42",
+    "name": "Untitled",
+    "commands": [{
+      "id": "c9b6dc2a-95e2-4921-bdcb-b321304e124b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.aerolineas.com.ar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2094a54-afc6-4f6b-befd-fc194af9f5fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09ba65d0-6fe6-47e6-99e8-e00f8f81c5f8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__PointerCursor-sc-22nvvu-16",
+      "targets": [
+        ["css=.styled__PointerCursor-sc-22nvvu-16", "css:finder"],
+        ["xpath=//div[@id='root']/header/div/div/div/div[3]/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Centro de ayuda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f5fb0f-2734-4b93-8ac7-24fd16f26526",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__MenuItem-sc-22nvvu-3:nth-child(4) > .styled__MenuText-sc-22nvvu-5",
+      "targets": [
+        ["css=.styled__MenuItem-sc-22nvvu-3:nth-child(4) > .styled__MenuText-sc-22nvvu-5", "css:finder"],
+        ["xpath=//div[@id='root']/header/div/div/div/div[2]/nav/button[4]/label", "xpath:idRelative"],
+        ["xpath=//button[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Información')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f729673a-feb4-4b32-a921-7bbf824f7466",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__MenuItem-sc-22nvvu-3:nth-child(4) > .styled__MenuText-sc-22nvvu-5",
+      "targets": [
+        ["css=.styled__MenuItem-sc-22nvvu-3:nth-child(4) > .styled__MenuText-sc-22nvvu-5", "css:finder"],
+        ["xpath=//div[@id='root']/header/div/div/div/div[2]/nav/button[4]/label", "xpath:idRelative"],
+        ["xpath=//button[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Información')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5774ca82-a8a8-40b7-be2d-870eb0b712d5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Equipaje",
+      "targets": [
+        ["linkText=Equipaje", "linkText"],
+        ["css=.styled__Column-n9fn5d-3:nth-child(3) .styled__StyledAnchor-n9fn5d-6:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Equipaje')]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/div/div/div/div[2]/nav/div/div/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.aerolineas.com.ar/franquicia-de-equipaje')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Equipaje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c87d146b-a613-44e8-85d6-cf75e5e2f8d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=elementos prohibidos/restringidos",
+      "targets": [
+        ["linkText=elementos prohibidos/restringidos", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'elementos prohibidos/restringidos')]", "xpath:link"],
+        ["xpath=//div[@id='tabContent-7bc965fc-a3ac-4cde-844f-d0700e9f92a6-0']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.aerolineas.com.ar/franquicia-de-equipaje?tab=restringidos')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'elementos prohibidos/restringidos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e856966e-0044-4a23-a295-731ef573d5b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Aerolíneas Cargo",
+      "targets": [
+        ["linkText=Aerolíneas Cargo", "linkText"],
+        ["css=.info-box > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Aerolíneas Cargo')]", "xpath:link"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://cargo.aerolineas.com.ar/es-ar']", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Aerolíneas Cargo')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win933",
+      "windowTimeout": 2000
+    }, {
+      "id": "90b20c89-0256-4ed7-b788-f4d46b32ee73",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a480b9b0-0e87-477c-8525-f0cc5ad65c79",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win933}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17fdcf45-b039-4eda-95ea-7a833a343448",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a807314e-99f0-48ee-ad5d-5e8806eee5b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(2) > .styled__Collapsible-sc-16k0pww-0",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(2) > .styled__Collapsible-sc-16k0pww-0", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1b23f46-38f4-47f1-9992-26fa41c1620c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(2) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(2) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a797c60c-e3d7-4128-9588-b73d771ccffb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e18f33c-8c32-4d93-8048-835d778b6f3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[3]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "927526af-3890-41c3-9dc6-59f7623b4ac2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[3]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f08b4b3-7462-4339-bdb6-f9392698f8b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[3]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fb630f9-3b34-4a02-924d-797741ad16ed",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[3]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f784450-5788-4a64-bb9d-793fd3da2016",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[4]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b842cfe-a299-48f7-b335-4396874cf4e6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[4]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8436d9d8-2c69-461e-989d-22d50d48cb64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[4]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27ad0f9d-bfe0-48b1-aa0f-0242309ef280",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[4]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff134f7d-e64c-4bd4-a19b-df0fd52e72cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6ef2210-8f84-45b7-b6d2-d33fc9b1c03a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a445fad-53c2-4c5a-9062-52da207d1162",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5599d8e7-688b-408f-a94e-c27222f50abc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7a6c40f-c372-416d-a83f-02f2ff869720",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[6]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "186c90e1-c2f6-4ac9-ae2d-f8c8b237f430",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[6]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1115590d-a783-4cf2-ad54-d1a529795335",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[6]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35424fb9-8476-45a2-ac1c-4752cd4b98f9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[6]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f07c5edc-149d-4ced-8566-528e5ffb4723",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(7) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(7) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[7]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2278e17f-6147-4c7d-96e3-c1e84d79ab51",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(7) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(7) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[7]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59859b30-8d82-4233-a03d-e327360ee86f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[7]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "747c62a5-35d0-4117-ab01-677a490a2319",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(7) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(7) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[7]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "998b2ef6-536b-4f3a-82b6-192c9cafeb9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(8) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(8) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[8]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d30f5a73-b30c-463a-bdcc-d746e2a6fb83",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(8) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(8) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[8]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eddf9761-0563-49e7-b6fc-4a9294295b00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[8]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ba9736f-3745-494b-a105-f79ed2d26f95",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(8) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(8) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[8]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db5577e9-4264-40bf-8c9b-5e279002e2aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(9) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(9) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[9]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19b89401-9853-40a1-8bc9-b6d31a02c540",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(9) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(9) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[9]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "960a0152-e641-416b-9c53-d5f74afba7b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[9]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c77265be-92a9-4c27-9f67-3c8be2a0fa1d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(9) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(9) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[9]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fe89f49-4f37-4977-8b01-6c75b87d89d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(10) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(10) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-8b2285bb-a49e-441d-bb5e-42b149fd41a7-4']/div/div[10]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "815e56ce-05ba-4d71-a870-1d765b8cf310",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Preguntas Frecuentes",
+      "targets": [
+        ["linkText=Preguntas Frecuentes", "linkText"],
+        ["css=td > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Preguntas Frecuentes')]", "xpath:link"],
+        ["xpath=//div[@id='3304a463-87aa-47d4-bf5b-568aa2a1c2d4']/div/div/div/table/tbody/tr[3]/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.aerolineas.com.ar/frequently-asked-questions-results?subcategory=4512')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Preguntas Frecuentes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bff880b-6338-43c0-9ed6-3cb1a1299c30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4df96913-be00-4578-a0c8-c73188f3cc37",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddcb3498-bbf8-4153-a931-61c1d91dd2fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed11887c-0805-4651-833d-cda95806ab73",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94e37e2d-1154-423c-93df-1445b7290cc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[6]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed81acec-7d5f-49db-aafb-b8f9c10c0104",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[6]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bcd1dc5-2d69-42c1-b566-9be5ef09a8f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[6]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61112edd-8a06-45d7-a5d7-e8a3afa0d4cf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(6) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[6]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88810211-b957-42cb-b43a-ed6a24664414",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(7) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(7) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[7]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "212f7e4e-e098-4931-a37a-552f0b6b6a32",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9983a41-bd41-4eb4-98d9-efbdf542fa19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[7]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "491091a9-bbee-4d4d-ba0a-503f14c5b77f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(10) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(10) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[10]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b651f9e-b26c-47fb-bdb7-78dffe2819fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(10) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(10) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[10]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85b6aa6f-51eb-44eb-900d-29dbeb33c481",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[10]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cbf2667-27f8-4a5e-a57e-ba94a21811a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[10]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d86853e8-ae79-4e78-a144-9b7928ff1801",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(11) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(11) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-010ba558-7732-426c-9332-02c5bfe9bbb4-4']/div/div[11]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[11]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a872e7b-5697-4c13-85bb-6c84a7fc8f39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cargas",
+      "targets": [
+        ["linkText=Cargas", "linkText"],
+        ["css=.rich-text__StyledText-sc-8zrz4h-0:nth-child(1) > p:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cargas')]", "xpath:link"],
+        ["xpath=//div[@id='a0865d91-b191-4586-bed9-be48989023e5']/div/div/p[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://cargo.aerolineas.com.ar/es-ar'])[2]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cargas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "030228db-be71-484e-bd44-f3bcc5c96228",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(11) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(11) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-315e66a4-2322-42a1-a544-99af58af02ba-4']/div/div[11]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[11]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79816d39-53ea-4b22-9b6e-bb3249b9a4e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.layout__BlockContent-mra5f4-2 > .rich-text__StyledText-sc-8zrz4h-0",
+      "targets": [
+        ["css=.layout__BlockContent-mra5f4-2 > .rich-text__StyledText-sc-8zrz4h-0", "css:finder"],
+        ["xpath=//div[@id='0b87072a-c281-4128-ab38-8a5f4ffcd2f0']/div/div", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb2d9cc-ae43-4066-af64-d0a284d1f3a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=el listado de dichas especies aquí",
+      "targets": [
+        ["linkText=el listado de dichas especies aquí", "linkText"],
+        ["css=p:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'el listado de dichas especies aquí')]", "xpath:link"],
+        ["xpath=//div[@id='0b87072a-c281-4128-ab38-8a5f4ffcd2f0']/div/div/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.argentina.gob.ar/ambiente/biodiversidad/exoticas-invasoras/lista')]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'el listado de dichas especies aquí')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a50568c6-9359-4952-8cbe-aa11e655d5ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lista de especies exóticas invasoras, potencialmente invasoras y criptogénicas con nombres comunes",
+      "targets": [
+        ["linkText=Lista de especies exóticas invasoras, potencialmente invasoras y criptogénicas con nombres comunes", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Lista de especies exóticas invasoras, potencialmente invasoras y criptogénicas con nombres comunes')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/section/article/div/div[9]/div/div/div/div/p[28]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.argentina.gob.ar/sites/default/files/lista_oficial_eei_boletin_oficial_con_nombres_comunes_0.pdf')]", "xpath:href"],
+        ["xpath=//p[28]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lista de especies exóticas invasoras, potencialmente invasoras y criptogénicas con nombres comunes')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6272",
+      "windowTimeout": 2000
+    }, {
+      "id": "153f22ec-4ca9-4d90-b95c-90113ef60369",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6272}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94810574-e7e3-4d7f-be9d-a6b54795bc51",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1585830f-34b4-4f81-a249-631f68c1e2c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sistema Nacional de Información sobre Especies Exóticas Invasoras",
+      "targets": [
+        ["linkText=Sistema Nacional de Información sobre Especies Exóticas Invasoras", "linkText"],
+        ["css=p:nth-child(55) > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Sistema Nacional de Información sobre Especies Exóticas Invasoras')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/section/article/div/div[9]/div/div/div/div/p[29]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.argentina.gob.ar/ambiente/biodiversidad/exoticas-invasoras/sistema')]", "xpath:href"],
+        ["xpath=//p[29]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sistema Nacional de Información sobre Especies Exóticas Invasoras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8b43d97-0a65-4cde-b72b-ecacf78ee7c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Impacto de las especies exóticas invasoras en cifras",
+      "targets": [
+        ["linkText=Impacto de las especies exóticas invasoras en cifras", "linkText"],
+        ["css=p:nth-child(56) > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Impacto de las especies exóticas invasoras en cifras')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/section/article/div/div[9]/div/div/div/div/p[30]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.argentina.gob.ar/ambiente/biodiversidad/exoticas-invasoras/impacto')]", "xpath:href"],
+        ["xpath=//p[30]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Impacto de las especies exóticas invasoras en cifras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b45fdfb1-1ab7-4e90-b6b9-68e1fb61548a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Normativa sobre especies exóticas invasoras",
+      "targets": [
+        ["linkText=Normativa sobre especies exóticas invasoras", "linkText"],
+        ["css=p:nth-child(57) > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Normativa sobre especies exóticas invasoras')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/section/article/div/div[9]/div/div/div/div/p[31]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.argentina.gob.ar/ambiente/biodiversidad/exoticas-invasoras/normativa')]", "xpath:href"],
+        ["xpath=//p[31]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Normativa sobre especies exóticas invasoras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fb7a1b2-84fd-4c88-aa8c-b2960f25202c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Volver",
+      "targets": [
+        ["linkText=Volver", "linkText"],
+        ["css=.btn-sm", "css:finder"],
+        ["xpath=//a[contains(text(),'Volver')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/section/article/div/div[9]/div/div/div/div/p[32]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.argentina.gob.ar/ambiente/biodiversidad/exoticas-invasoras')])[5]", "xpath:href"],
+        ["xpath=//p[32]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Volver')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3964a99-9f4a-4042-a05d-02d06d484d10",
+      "comment": "",
+      "command": "click",
+      "target": "id=tab-9d2428b6-770c-42a8-a058-837d8447d6df-1",
+      "targets": [
+        ["id=tab-9d2428b6-770c-42a8-a058-837d8447d6df-1", "id"],
+        ["css=#tab-9d2428b6-770c-42a8-a058-837d8447d6df-1", "css:finder"],
+        ["xpath=//button[@id='tab-9d2428b6-770c-42a8-a058-837d8447d6df-1']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[3]/div/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Exceso de Equipaje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c94ac60e-a1a2-4095-81a5-d22b046f5a7a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=constancia de crédito fiscal.",
+      "targets": [
+        ["linkText=constancia de crédito fiscal.", "linkText"],
+        ["css=.panel-body:nth-child(3) a", "css:finder"],
+        ["xpath=//a[contains(text(),'constancia de crédito fiscal.')]", "xpath:link"],
+        ["xpath=//div[@id='tabContent-9d2428b6-770c-42a8-a058-837d8447d6df-1']/div/div/div/div/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.aerolineas.com.ar/es-ar/laempresa/constanciacreditofiscal')]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'constancia de crédito fiscal.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a18796f2-7ec8-49e0-bc3b-2bcae9d4e9e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=tab-40abe18f-5bc3-43e2-a428-f2b9051db7d7-2",
+      "targets": [
+        ["id=tab-40abe18f-5bc3-43e2-a428-f2b9051db7d7-2", "id"],
+        ["css=#tab-40abe18f-5bc3-43e2-a428-f2b9051db7d7-2", "css:finder"],
+        ["xpath=//button[@id='tab-40abe18f-5bc3-43e2-a428-f2b9051db7d7-2']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[3]/div/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Equipaje Adicional')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21d18e12-fa39-4146-8dcb-37e0ff4b4dc0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=canales de atención",
+      "targets": [
+        ["linkText=canales de atención", "linkText"],
+        ["css=.rich-text__StyledText-sc-8zrz4h-0:nth-child(1) > p:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'canales de atención')]", "xpath:link"],
+        ["xpath=//div[@id='tabContent-40abe18f-5bc3-43e2-a428-f2b9051db7d7-2']/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.aerolineas.com.ar/canales-de-atencion')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'canales de atención')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d151f31-8257-4ebc-9e64-5b0e3d3b8a56",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Exceso de equipaje",
+      "targets": [
+        ["linkText=Exceso de equipaje", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Exceso de equipaje')]", "xpath:link"],
+        ["xpath=//div[@id='tabContent-283d1a8a-de01-49f2-9991-096f403d173f-2']/div/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.aerolineas.com.ar/es-ar/equipaje/exceso')]", "xpath:href"],
+        ["xpath=//p/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Exceso de equipaje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "365b4220-a001-49d1-870c-06b4689404d7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=aquí",
+      "targets": [
+        ["linkText=aquí", "linkText"],
+        ["css=li:nth-child(4) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'aquí')])[2]", "xpath:link"],
+        ["xpath=//div[@id='tabContent-e222cfe8-88c1-4cc5-a002-35270dc4e143-2']/div/div/ul/li[4]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.aerolineas.com.ar/es-ar/equipaje/equipaje_adicional')]", "xpath:href"],
+        ["xpath=//li[4]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d16b502-d96c-4553-80a9-58749cac24e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=tab-745725b7-20a4-4664-bdf0-b970beef31ee-5",
+      "targets": [
+        ["id=tab-745725b7-20a4-4664-bdf0-b970beef31ee-5", "id"],
+        ["css=#tab-745725b7-20a4-4664-bdf0-b970beef31ee-5", "css:finder"],
+        ["xpath=//button[@id='tab-745725b7-20a4-4664-bdf0-b970beef31ee-5']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[3]/div/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Inconvenientes con tu Equipaje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfdc8275-79f7-47fd-8d96-a40ba3db51e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(2) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(2) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a3928b8-0054-41fc-b411-d626c3f4c8d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(2) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(2) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c57a380d-bd02-4047-b723-78006a37dfea",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.hxonuj .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5521c662-046d-4da6-9d74-3afa534e1fab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-align-center:nth-child(5) strong",
+      "targets": [
+        ["css=.text-align-center:nth-child(5) strong", "css:finder"],
+        ["xpath=//div[@id='859dff3f-eab6-49be-8c5b-435c63ceb738']/div/div/p[5]/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'COMPROBAR EL ESTADO DE SU EQUIPAJE')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2760",
+      "windowTimeout": 2000
+    }, {
+      "id": "6369f714-3959-4e89-b2c4-4e785ebdb32c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2760}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87fe0a7a-069a-4b53-8dcd-02af0b82993f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81fd455c-332d-4752-ad70-531587c016b2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee1078fa-7aff-4471-92e2-7d3d546f8059",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-align-center:nth-child(8) strong",
+      "targets": [
+        ["css=.text-align-center:nth-child(8) strong", "css:finder"],
+        ["xpath=//div[@id='859dff3f-eab6-49be-8c5b-435c63ceb738']/div/div/p[8]/a/strong", "xpath:idRelative"],
+        ["xpath=//p[8]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'FORMULARIO DE CONTACTO')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3839",
+      "windowTimeout": 2000
+    }, {
+      "id": "78a12663-4e52-45ad-8e17-7a299dc17747",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3839}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5099516a-3b73-445f-aa79-bc34505b104f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f5d024d-800a-41f6-b6a0-f2c299c6083a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb1a6861-fa20-4fb2-a819-62f4bc171dfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[3]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8856a7cf-02a3-4267-9593-95dd4c86f586",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[3]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4b4ec76-f0e3-4a2c-8c9c-71ff58fdb096",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(3) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[3]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc4035e9-75ae-4bcb-8ffc-b56c0420d63e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[4]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16081c49-cf44-4f02-9d57-9e1e546288e0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[4]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0311b629-057a-4d63-b525-7a3cf3e89746",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(4) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[4]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d0fc647-1466-4f81-93d2-ba3bbc903102",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) > .styled__Separator-sc-3hi0gu-9",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) > .styled__Separator-sc-3hi0gu-9", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb8f0cdc-c7e3-4f4e-be2f-6535ba3473a6",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.inxYph",
+      "targets": [
+        ["css=.inxYph", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": "222.5,43"
+    }, {
+      "id": "8dd9688f-6f57-4928-8c16-e390219be3f9",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.inxYph",
+      "targets": [
+        ["css=.inxYph", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": "222.5,43"
+    }, {
+      "id": "81f06213-f525-46da-b201-33ec6ce99c76",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.inxYph",
+      "targets": [
+        ["css=.inxYph", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": "222.5,43"
+    }, {
+      "id": "572dd5ab-9c48-479c-a211-c2661a2e969f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inxYph",
+      "targets": [
+        ["css=.inxYph", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "272ac51a-8fa5-4942-9c6c-a7bf62a3ea5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inxYph .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.inxYph .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25394874-c2d4-4fe7-8d6f-b2c831d9463d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.inxYph .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.inxYph .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "499d98f6-e826-4b77-b69d-fb78e50622b3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2",
+      "targets": [
+        ["css=.styled__Wrapper-sc-3hi0gu-20:nth-child(5) .styled__CollapsibleTitle-sc-16k0pww-2", "css:finder"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[5]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0abb12e-3306-474d-9dba-80e7c087c0c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ir arriba",
+      "targets": [
+        ["linkText=Ir arriba", "linkText"],
+        ["css=.text-align-right > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Ir arriba')]", "xpath:link"],
+        ["xpath=//div[@id='tabContent-745725b7-20a4-4664-bdf0-b970beef31ee-5']/div/div[6]/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#titulo')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ir arriba')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "79d508e3-034b-4a4a-ae4b-d1fd5f9e2ea3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b5769c9f-7226-489c-a9b8-1ee0e44e8a42"]
+  }],
+  "urls": [],
+  "plugins": []
+}
